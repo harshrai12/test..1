@@ -17,7 +17,9 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <main class="main" id="top">
+    <nav class="navbar navbar-expand-lg navbar-light py-3 bg-light opacity-85 ">
+      <div class="container">
       <a class="navbar-brand" href="#"
         ><img
           class="d-inline-block align-top img-fluid"
@@ -37,29 +39,34 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="../index.html"
+      <div class="collapse navbar-collapse  border-lg-0 mt-4 mt-lg-0"
+            id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item px-2">
+            <a class="nav-link fw-medium active" href="../index.html"
               >Home <span class="sr-only"></span
             ></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../index.html">About Us</a>
+          <li class="nav-item px-2">
+            <a class="nav-link fw-medium active" href="../index.html">About Us</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../index.html">Board of Directors</a>
+          <li class="nav-item px-2">
+            <a class="nav-link fw-medium active" href="../index.html">Board of Directors</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../index.html">Product</a>
+          <li class="nav-item px-2">
+            <a class="nav-link fw-medium active" href="../index.html">Products</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../contact/contact.html">Contact</a>
+          <li class="nav-item px-2">
+            <a class="nav-link fw-medium active" href="../contact/contact.html">Contact Us</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../photogallery.html">Photo gallery</a>
+          <li class="nav-item px-2">
+            <a class="nav-link fw-medium active" href="../photogallery.html">Photo gallery</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link fw-medium active" href="../legal.html">Legal Documents</a>
           </li>
         </ul>
+      </div>
       </div>
     </nav>
 
@@ -76,6 +83,7 @@
       </h3>
       <p class="text-center">
          Call us at : <a href="tel://8303951882">8303951882</a> or <a href="tel://7703916170">7703916170</a>
+          or <a href="tel://0522-4314959">0522-4314959</a>
       </p>
   
       <div class="container">
@@ -155,6 +163,19 @@
                         </div>
                         <div class="col-md-12">
                           <div class="form-group">
+                            <label class="label" for="subject">Subject</label>
+                            <input
+                              type="file"
+                              class="form-control"
+                              name="subject"
+                              id="myfile"
+                              placeholder="Upload File"
+                            />
+                          </div>
+                        </div>
+                        
+                        <div class="col-md-12">
+                          <div class="form-group">
                             <input
                               type="submit"
                               value="Send Message"
@@ -213,6 +234,11 @@
                           <span>Phone 2:</span>
                           <a href="tel://7703916170">7703916170</a>
                         </p>
+                        <p>
+                          <span>Phone 3:</span>
+                          <a href="tel://0522-4314959">0522-43149592</a>
+                        </p>
+                        
                       </div>
                     </div>
                     <div class="dbox w-100 d-flex align-items-center">
@@ -258,6 +284,7 @@
         </div>
       </div>
     </section>
+    </main>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.js"></script>
