@@ -13,7 +13,9 @@ font-weight:400;
 .img-fluid1{
   width: 17rem;
   height:19rem;
+
 }
+
 
 
 
@@ -39,6 +41,12 @@ font-weight:400;
     padding-top:25px;
     font-size:24px;
   }
+
+  .row{
+    text-align: center;
+  }
+
+
 }
 
 .photo-gallery .intro {
